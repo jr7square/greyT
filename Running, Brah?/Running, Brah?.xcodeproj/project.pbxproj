@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84AE50021DB29C0400599CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE50011DB29C0400599CAA /* AppDelegate.swift */; };
 		84AE50041DB29C0400599CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE50031DB29C0400599CAA /* ViewController.swift */; };
 		84AE50071DB29C0400599CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE50051DB29C0400599CAA /* Main.storyboard */; };
 		84AE500C1DB29C0400599CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE500A1DB29C0400599CAA /* LaunchScreen.storyboard */; };
@@ -35,11 +34,9 @@
 
 /* Begin PBXFileReference section */
 		84AE4FFE1DB29C0400599CAA /* Running, Brah?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Running, Brah?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84AE50011DB29C0400599CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AE50031DB29C0400599CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84AE50061DB29C0400599CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84AE500B1DB29C0400599CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84AE500D1DB29C0400599CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AE50121DB29C0400599CAA /* Running, Brah?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Running, Brah?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE50161DB29C0400599CAA /* Running__Brah_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Running__Brah_Tests.swift; sourceTree = "<group>"; };
 		84AE50181DB29C0400599CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,11 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				84F1AA7C1DB2F6F8007079BB /* Assets.xcassets */,
-				84AE50011DB29C0400599CAA /* AppDelegate.swift */,
 				84AE50031DB29C0400599CAA /* ViewController.swift */,
 				84AE50051DB29C0400599CAA /* Main.storyboard */,
 				84AE500A1DB29C0400599CAA /* LaunchScreen.storyboard */,
-				84AE500D1DB29C0400599CAA /* Info.plist */,
 			);
 			path = "Running, Brah?";
 			sourceTree = "<group>";
@@ -196,6 +191,11 @@
 					84AE4FFD1DB29C0400599CAA = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					84AE50111DB29C0400599CAA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -262,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AE50041DB29C0400599CAA /* ViewController.swift in Sources */,
-				84AE50021DB29C0400599CAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
