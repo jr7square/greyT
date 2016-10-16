@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-=======
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
->>>>>>> 7b9cdd4a955d41174b7354b3a917d30b117c001d
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -77,36 +72,22 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many miles we logging, fam?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzB-Ep-zMf">
-<<<<<<< HEAD
                                 <frame key="frameInset" minX="57" minY="89" width="260" height="32"/>
-=======
-                                <frame key="frameInset" minX="57" minY="197" width="260" height="32"/>
->>>>>>> 7b9cdd4a955d41174b7354b3a917d30b117c001d
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-<<<<<<< HEAD
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L2R-aq-k0c">
                                 <frame key="frameInset" minX="139" minY="129" width="97" height="30"/>
-=======
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L2R-aq-k0c">
-                                <frame key="frameInset" minX="139" minY="251" width="97" height="30"/>
->>>>>>> 7b9cdd4a955d41174b7354b3a917d30b117c001d
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tM-wE-erW">
-<<<<<<< HEAD
                                 <frame key="frameInset" minX="117" minY="465" width="140" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-=======
-                                <frame key="frameInset" minX="136" minY="373" width="102" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
->>>>>>> 7b9cdd4a955d41174b7354b3a917d30b117c001d
                                 <state key="normal" title="LET'S GET LIT!"/>
                                 <connections>
                                     <action selector="getLit:" destination="Whu-sr-8or" eventType="touchUpInside" id="8bR-A6-jIH"/>
@@ -161,15 +142,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-<<<<<<< HEAD
                     <connections>
                         <outlet property="currentMiles" destination="Toh-nD-dIF" id="WdX-pN-OSy"/>
                         <outlet property="inputMiles" destination="L2R-aq-k0c" id="X50-4c-QsD"/>
                         <outlet property="motMes" destination="2w9-UQ-uOq" id="OY2-Nb-Egs"/>
                         <outlet property="totalMiles" destination="4YC-fw-rdZ" id="FgQ-e0-5xM"/>
                     </connections>
-=======
->>>>>>> 7b9cdd4a955d41174b7354b3a917d30b117c001d
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WjT-4c-7nG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -232,13 +210,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-<<<<<<< HEAD
                     <connections>
                         <outlet property="currentMiles" destination="Nei-sP-Z6J" id="ZyF-T5-L9x"/>
                         <outlet property="totalMiles" destination="P9m-qz-5bl" id="9he-p9-zmu"/>
                     </connections>
-=======
->>>>>>> 7b9cdd4a955d41174b7354b3a917d30b117c001d
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2N-fW-iyw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
