@@ -1,15 +1,15 @@
 //
-//  Running__Brah_Tests.swift
-//  Running, Brah?Tests
+//  Running__Brah__2Tests.swift
+//  Running, Brah?_2Tests
 //
 //  Created by Stacy Kam on 10/15/16.
-//  Copyright © 2016 GreyT. All rights reserved.
+//  Copyright © 2016 Stacy Kam. All rights reserved.
 //
 
 import XCTest
-@testable import Running__Brah_
+@testable import Running__Brah__2
 
-class Running__Brah_Tests: XCTestCase {
+class Running__Brah__2Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()

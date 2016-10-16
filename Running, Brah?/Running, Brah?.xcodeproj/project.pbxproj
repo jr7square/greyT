@@ -10,10 +10,10 @@
 		84AE50021DB29C0400599CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE50011DB29C0400599CAA /* AppDelegate.swift */; };
 		84AE50041DB29C0400599CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE50031DB29C0400599CAA /* ViewController.swift */; };
 		84AE50071DB29C0400599CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE50051DB29C0400599CAA /* Main.storyboard */; };
-		84AE50091DB29C0400599CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AE50081DB29C0400599CAA /* Assets.xcassets */; };
 		84AE500C1DB29C0400599CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE500A1DB29C0400599CAA /* LaunchScreen.storyboard */; };
 		84AE50171DB29C0400599CAA /* Running__Brah_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE50161DB29C0400599CAA /* Running__Brah_Tests.swift */; };
 		84AE50221DB29C0400599CAA /* Running__Brah_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE50211DB29C0400599CAA /* Running__Brah_UITests.swift */; };
+		84F1AA7D1DB2F6F8007079BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F1AA7C1DB2F6F8007079BB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		84AE50011DB29C0400599CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AE50031DB29C0400599CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84AE50061DB29C0400599CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84AE50081DB29C0400599CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84AE500B1DB29C0400599CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84AE500D1DB29C0400599CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AE50121DB29C0400599CAA /* Running, Brah?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Running, Brah?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,8 @@
 		84AE501D1DB29C0400599CAA /* Running, Brah?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Running, Brah?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE50211DB29C0400599CAA /* Running__Brah_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Running__Brah_UITests.swift; sourceTree = "<group>"; };
 		84AE50231DB29C0400599CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F1AA7C1DB2F6F8007079BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F1AA7F1DB2FED5007079BB /* Running, Brah?-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Running, Brah?-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				84AE50151DB29C0400599CAA /* Running, Brah?Tests */,
 				84AE50201DB29C0400599CAA /* Running, Brah?UITests */,
 				84AE4FFF1DB29C0400599CAA /* Products */,
+				84F1AA7F1DB2FED5007079BB /* Running, Brah?-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +99,10 @@
 		84AE50001DB29C0400599CAA /* Running, Brah? */ = {
 			isa = PBXGroup;
 			children = (
+				84F1AA7C1DB2F6F8007079BB /* Assets.xcassets */,
 				84AE50011DB29C0400599CAA /* AppDelegate.swift */,
 				84AE50031DB29C0400599CAA /* ViewController.swift */,
 				84AE50051DB29C0400599CAA /* Main.storyboard */,
-				84AE50081DB29C0400599CAA /* Assets.xcassets */,
 				84AE500A1DB29C0400599CAA /* LaunchScreen.storyboard */,
 				84AE500D1DB29C0400599CAA /* Info.plist */,
 			);
@@ -193,13 +195,16 @@
 				TargetAttributes = {
 					84AE4FFD1DB29C0400599CAA = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					84AE50111DB29C0400599CAA = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 84AE4FFD1DB29C0400599CAA;
 					};
 					84AE501C1DB29C0400599CAA = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 84AE4FFD1DB29C0400599CAA;
 					};
 				};
@@ -230,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AE500C1DB29C0400599CAA /* LaunchScreen.storyboard in Resources */,
-				84AE50091DB29C0400599CAA /* Assets.xcassets in Resources */,
+				84F1AA7D1DB2F6F8007079BB /* Assets.xcassets in Resources */,
 				84AE50071DB29C0400599CAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +404,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Running, Brah?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GreyT.Running--Brah-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Running, Brah?-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -410,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Running, Brah?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GreyT.Running--Brah-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Running, Brah?-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GreyT.Running--Brah-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Running, Brah?.app/Running, Brah?";
 			};
 			name = Debug;
@@ -437,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GreyT.Running--Brah-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Running, Brah?.app/Running, Brah?";
 			};
 			name = Release;
@@ -448,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GreyT.Running--Brah-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Running, Brah?";
 			};
 			name = Debug;
@@ -459,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GreyT.Running--Brah-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Running, Brah?";
 			};
 			name = Release;
@@ -482,6 +498,7 @@
 				84AE50281DB29C0400599CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AE50291DB29C0400599CAA /* Build configuration list for PBXNativeTarget "Running, Brah?Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				84AE502B1DB29C0400599CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AE502C1DB29C0400599CAA /* Build configuration list for PBXNativeTarget "Running, Brah?UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				84AE502E1DB29C0400599CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

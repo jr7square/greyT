@@ -10,6 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var inputMiles: UITextField!
+    @IBOutlet weak var totalMiles: UILabel!
+    @IBOutlet weak var motMes: UILabel!
+    @IBOutlet weak var currentMiles: UILabel!
+
+    @IBAction func getLit(_ sender: AnyObject) {
+        totalMiles.text = inputMiles.text
+    }
+    
+    @IBAction func hideKeyboard(_ sender: AnyObject) {
+        inputMiles.resignFirstResponder()
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
