@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
+    
+    var locationman: CLLocationManager!
+    var destLocation: CLLocation!
+    var currentUserLocation: CLLocation?
 
     @IBOutlet weak var inputMiles: UITextField!
     @IBOutlet weak var totalMiles: UILabel!
@@ -32,6 +37,32 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        locationman = CLLocationManager()
+        locationman.delegate = self
+        locationman.desiredAccuracy = kCLLocationAccuracyBest
+        locationman.requestAlwaysAuthorization()
+        locationman.startUpdatingLocation()
+        
+        
+    }
+    
+    func startDestLocation(userloc: CLLocation) {
+        destLocation = userloc
+    }
+    
+    
+
+    func updateLocation(){
+        currentUserLocation = locationman.location
+    }
+    
+    func getCurrentlocation() ->(Double, Double) {
+        var x_coordinate: Double
+        var y_coordinate: Double
+        x_coordinate = locationman.location!.coordinate.longitude
+        y_coordinate = locationman.location!.coordinate.latitude
+        
+        return (x_coordinate, y_coordinate)
     }
 
 
