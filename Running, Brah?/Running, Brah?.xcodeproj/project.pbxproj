@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843FFC6C1DB3ADB300AEF556 /* soundeffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 843FFC6B1DB3ADB300AEF556 /* soundeffect.mp3 */; };
+		84AE50021DB29C0400599CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE50011DB29C0400599CAA /* AppDelegate.swift */; };
 		84AE50041DB29C0400599CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE50031DB29C0400599CAA /* ViewController.swift */; };
 		84AE50071DB29C0400599CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE50051DB29C0400599CAA /* Main.storyboard */; };
 		84AE500C1DB29C0400599CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE500A1DB29C0400599CAA /* LaunchScreen.storyboard */; };
@@ -33,10 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843FFC6B1DB3ADB300AEF556 /* soundeffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soundeffect.mp3; path = "../../../Documents/greyT/Running, Brah?/Sounds/soundeffect.mp3"; sourceTree = "<group>"; };
 		84AE4FFE1DB29C0400599CAA /* Running, Brah?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Running, Brah?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AE50011DB29C0400599CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AE50031DB29C0400599CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84AE50061DB29C0400599CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84AE500B1DB29C0400599CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AE500D1DB29C0400599CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AE50121DB29C0400599CAA /* Running, Brah?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Running, Brah?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE50161DB29C0400599CAA /* Running__Brah_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Running__Brah_Tests.swift; sourceTree = "<group>"; };
 		84AE50181DB29C0400599CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,10 +101,13 @@
 		84AE50001DB29C0400599CAA /* Running, Brah? */ = {
 			isa = PBXGroup;
 			children = (
+				843FFC6B1DB3ADB300AEF556 /* soundeffect.mp3 */,
 				84F1AA7C1DB2F6F8007079BB /* Assets.xcassets */,
+				84AE50011DB29C0400599CAA /* AppDelegate.swift */,
 				84AE50031DB29C0400599CAA /* ViewController.swift */,
 				84AE50051DB29C0400599CAA /* Main.storyboard */,
 				84AE500A1DB29C0400599CAA /* LaunchScreen.storyboard */,
+				84AE500D1DB29C0400599CAA /* Info.plist */,
 			);
 			path = "Running, Brah?";
 			sourceTree = "<group>";
@@ -185,17 +193,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = GreyT;
 				TargetAttributes = {
 					84AE4FFD1DB29C0400599CAA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H665A59HC5;
 						LastSwiftMigration = 0800;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 1;
-							};
-						};
 					};
 					84AE50111DB29C0400599CAA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -237,6 +241,7 @@
 				84AE500C1DB29C0400599CAA /* LaunchScreen.storyboard in Resources */,
 				84F1AA7D1DB2F6F8007079BB /* Assets.xcassets in Resources */,
 				84AE50071DB29C0400599CAA /* Main.storyboard in Resources */,
+				843FFC6C1DB3ADB300AEF556 /* soundeffect.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AE50041DB29C0400599CAA /* ViewController.swift in Sources */,
+				84AE50021DB29C0400599CAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +336,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -375,8 +383,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -395,6 +405,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -404,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H665A59HC5;
 				INFOPLIST_FILE = "Running, Brah?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GreyT.Running--Brah-";
@@ -419,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H665A59HC5;
 				INFOPLIST_FILE = "Running, Brah?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GreyT.Running--Brah-";
